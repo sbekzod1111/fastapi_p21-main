@@ -1,0 +1,93 @@
+
+
+adminkaga
+https://github.com/amisadmin/fastapi-amis-admin
+https://github.com/aminalaee/sqladmin
+
+
+structure
+https://testdriven.io/blog/fastapi-and-celery/
+
+
+testing
+https://testdriven.io/blog/fastapi-crud/
+
+
+
+awesome-projects
+https://github.com/wiseaidev/awesome-fastapi
+https://github.com/mjhea0/awesome-fastapi
+
+
+
+https://medium.com/@khalil.saidane/scalabel-fastapi-project-layered-architecture-10852a40fd38
+
+TASK
+1. modellar yozish (user, product, product_image, category, cart, wishlist)
+2. category ga tegishli bolgan productlarni chiqarish (product list da)
+3. ✅ product slug (python-slugify)
+4. ✅ adminka login page
+5. product va category CRUD
+6. ✅ product owner (user ga bog'lanadi)
+6.1 ✅ product price va product discount price (constraint bilan tekshirish kk price dan kichik bolishini)
+6.2 ✅ adminkadan user product qo'shsa (productni owneri shu user bolishi kk avtomatik olsin)
+6.3 ✅ product image larini products/images nomli papkaga saqlashi kk
+6.4 ✅ product image ni ko'p image qilish
+6.5 ✅ user ga image qoshish kk
+6.6 product narxini 3talik qilib chiqarish
+6.7 ✅ category ni ichma ich qilish kerak
+6.8 modellarni adminkada field ozbekcha chiqsin
+6.9 ✅ adminkada categoryni parentini -> chiziq bilan chiqarish django mptt ga oxshatib
+7. product listda category ni bosgandan keyin category ga tegishli product larni chiqarish
+(belgilangan category qizil bob turishi kk active bolib)
+7.1 product detailda product image larini chiqarish
+7.2 like va cart ga qoshadigan qilish
+7.3
+8.template uchun login qismi qilish
+8.1 session optimization (security)
+9.
+10. uzs, dollar
+
+task
+1. image larni togrilash
+1.2 malumotlarni faker orqali toldirish (har bir modeldan ntadan)
+2. image ni database ga mediadan keyingilarini saqlaydigan qilish
+3. register , login page larni togrilash
+4. pagination product listda
+5. register
+(first_name, email, username, password, confirm_password) -> pochtaga yuborish
+6. login
+(username, password)
+6.1 background task (pochta yuborishni shu orqali qilish)
+6.2 celery bilan pochtaga yuborish
+
+
+
+product list
+https://bootdey.com/snippets/view/Shop-product-list
+
+
+register
+https://bootdey.com/snippets/view/Form-register-inside-narrow-jumbotron
+
+
+login
+https://bootdey.com/snippets/view/Login-form-with-icon
+
+
+pagination
+https://bootdey.com/snippets/view/contacts-list-table
+
+
+https://bootdey.com/snippets/view/Clients
+
+extra task:
+1. stacked inline in admin
+2. auto completed in admin
+3. list_display da image chiqishi in admin
+4. id eng oxirgi column sifatida qoshilebdi
+5. adminkada category listda product count ni chiqarish kk
+
+admin
+123
+$2b$12$qP/avhe49ATIZL0UWDPqTeiCzAlLLeZdwm6lTd5aHL5Ti3hgJ22uG
